@@ -30,5 +30,5 @@ public class Film {
 	@OneToMany(mappedBy="film")
 	Collection<Position> positions;
 	@ManyToOne
-	private Category categorie;
+	private Category category;
 }
