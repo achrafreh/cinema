@@ -22,6 +22,8 @@ public class Ticket {
 	private boolean booked;
 	@ManyToOne
 	private Position position;
+	@ManyToOne
+	private Projection projection;
 	
 	
 }
